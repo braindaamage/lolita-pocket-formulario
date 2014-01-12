@@ -1,0 +1,92 @@
+body, html {
+	position: relative;
+	width: 100%;
+	height: 800px;
+	max-height: 800px;
+}
+
+body {
+	font-family: 'mias_scribblings_regular';
+}
+
+/* Fondo */
+
+div#bg {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+div#bg img {
+	width: 100%;
+}
+
+img.fotos {
+	position: absolute;
+	width: 70%;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+/* Formulario */
+
+div#formulario {
+	background: url('../img/datos/bg.png');
+	position: relative;
+	display: block;
+	width: 656px;
+	height: 715px;
+	margin: 0 auto;
+	padding: 85px 90px 0;
+}
+
+div#formulario h1 {
+	color: #a00123;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+
+div#formulario form {
+	margin-top: 20px;
+}
+
+div#formulario form div.row {
+	display: block;
+	height: 34px;
+	margin: 25px 0;
+}
+
+div#formulario form label {
+	font-size: 1.4em;
+	height: 30px;
+	color: #454670;
+}
+
+div#formulario form input[type="text"] {
+	background-color: transparent;
+	border: 1px solid #000;
+	border-radius: 7px;
+	float: right;
+	width: 60%;
+	height: 30px;
+	font-family: 'mias_scribblings_regular';
+	font-size: 1.4em;
+	color: #454670;
+}
+
+div#formulario form input[type="submit"] {
+	background: url('../img/datos/btn-enviar.png');
+	font-family: 'mias_scribblings_regular';
+	color: #fff;
+	font-size: 1.4em;
+	border: none;
+	padding: 17px 54px;
+	cursor: pointer;
+	margin: 0 auto;
+	display: block;
+}

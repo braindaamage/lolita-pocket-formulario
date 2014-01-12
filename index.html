@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>- Lolita Pocket -</title>
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="fonts/stylesheet.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="bg">
+			<img src="img/bg.jpg" />
+		</div>
+		<img src="img/fotos.png" class="fotos">
+		<div id="formulario">
+			<img src="img/datos/logo.png" />
+			<h1>Ingresa tus datos y sé parte del club LPK</h1>
+			<form id="datos" method="post" action="envio.php">
+				<div class="row">
+					<label>Nombre Completo:</label>
+					<input type="text" name="nombre" />
+				</div>
+				<div class="row">
+					<label>Correo Electrónico:</label>
+					<input type="text" name="email" /><br/>
+				</div>
+				<div class="row">
+					<label>Fecha de Nacimiento:</label>
+					<input type="text" name="fecnac" /><br/>
+				</div>
+				<div class="row">
+					<label>Teléfono / Celular:</label>
+					<input type="text" name="telefono" /><br/>
+				</div>
+				<div class="row">
+					<label>Colegio:</label>
+					<input type="text" name="colegio" /><br/>
+				</div>
+				<div class="row">
+					<label>Ciudad:</label>
+					<input type="text" name="ciudad" /><br/>
+				</div>
+				<input type="submit" name="submit" value="ENVIAR" />
+			</form>
+		</div>
+	</body>
+</html>
